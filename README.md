@@ -1,25 +1,9 @@
-Sanford.Multimedia.Midi
+Windows Form实现MIDI音乐文件的播放APP
 =======================
 
-This is all source code of the C# MIDI toolkit from CodeProject by Leslie Sanford.
+## 功能概述
 
-Improvements:
-- 64-bit compatible
-- Windows 8 and 10 compatible
-- Mono framework compatible on Windows
-- Does not require additional assemblies
-- Faster midi file reading in Release build
+​	点击file打开midi文件，点击start开始播放，点击stop(continue)暂停播放，点击continue(stop)继续播放
 
-Also avaliable on Nuget.org
+​	![Demo](/picture/paste.png)
 
-    PM> Install-Package Sanford.Multimedia.Midi
-
-If you have any improvement or fix to this library, please don't hesitate to make a fork and open a pull request.
-
-MIT License
-
-Credits:
-
-http://www.codeproject.com/Articles/6228/C-MIDI-Toolkit
-
-https://code.google.com/p/vsticks/
